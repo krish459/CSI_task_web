@@ -1,0 +1,140 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    background-color: grey;
+    position: relative;
+
+}
+#logo{
+    margin: 15px 25px;
+    border: 4px solib black;
+
+
+}
+#logo img{
+    height: 70px;
+    width: 200px;
+   
+}
+
+#navbar ul{
+    display: flex;
+    font-family:cursive;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    padding: 3px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+   
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+}
+p{
+    
+    font-size: 40px;
+    text-align: center;
+    margin: 10px auto;
+}
+h3{
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    margin: 10px auto;
+}
+.events{
+    background-color: lightsteelblue;
+}
+#slider{
+    
+    height: 400px;
+    margin: 22px auto;
+    padding: 95px 95px;
+    background: url(../IMAGES/git.jpg)no-repeat center center/cover;
+    width: 70%;
+    animation: eventslider 10s infinite 1s ease normal;
+}
+@keyframes eventslider {
+    25%{
+        background: url(../IMAGES/codeshastra.jpg)no-repeat center center/cover; 
+        height: 400px;
+    width:500px;
+    }
+    50%{
+        background: url(../IMAGES/csiweekend.png)no-repeat center center/cover; 
+        height: 400px;
+        width:500px;
+    }
+    75%{
+        background: url(../IMAGES/pitchplease.png)no-repeat center center; 
+        height: 400px;
+        width:500px;
+    }
+    100%{
+        background: url(../IMAGES/git.jpg)no-repeat center center/cover; 
+        height: 400px;
+    width:500px;
+    }
+}
+.rewards{
+    display: grid;
+    grid-template-columns: repeat(2 , auto);
+
+        grid-template-rows:  1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem 3rem;
+        margin: 25px 25px;
+        padding: 15px 15px;
+        background-color: lightsteelblue;
+}
+.child{
+    height: 140px;
+
+}
+.child h4{
+    margin: 10px auto;
+ text-align: center;
+    font-size: 25px;
+    color: red;
+}
+.child p{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+.child:first-child{
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    
+}
+.child:nth-child(4){
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    
+}
+.child:nth-child(5){
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    
+}
+.child:nth-child(8){
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    font-size: 20px;
+    text-align: center;
+}
