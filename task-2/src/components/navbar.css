@@ -1,0 +1,41 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    background-color: grey;
+    position: relative;
+
+}
+#logo{
+    margin: 15px 25px;
+    border: 4px solib black;
+
+
+}
+#logo img{
+    height: 70px;
+    width: 200px;
+   
+}
+
+#navbar ul{
+    display: flex;
+    font-family:cursive;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    padding: 3px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+   
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+}
